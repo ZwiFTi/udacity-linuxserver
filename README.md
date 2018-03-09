@@ -23,17 +23,14 @@ URL: http://ec2-18-197-54-179.eu-central-1.compute.amazonaws.com/
 5. Disabled root login through sshd_config
 6. Created key-pair with ssh-keygen and gave the pubkey to grader user
 7. Gave grader user sudo with the following command: sudo usermod -a -G sudo <name>
-8. Deployed a FlaskApp using ...
-
-
-## List of third-party resources used in the project
-
-
-
-
-
-
-
-Locate the SSH key you created for the grader user.
-
-During the submission process, paste the contents of the grader user's SSH key into the "Notes to Reviewer" field.
+8. Updated timezone (sudo dpkg-reconfigure tzdata)
+9. Installed Apache, mod_wsgi
+10. Installed Git and cloned Catalog app from Github
+11. Created a virtual environment to host dependencies, and installed them
+12. Created a virtual host conifg file (/etc/apache2/sites-available/.conf)
+13. Installed and configured postgresql
+  a. Created user and table
+  b. Gave user rights
+  c. Updated python files from sqlite to postgresql (user: andy, pw: grader123)
+14. Updated OAuth authorized JavaScript origins to make login work
+15. Restarted Apache
