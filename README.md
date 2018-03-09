@@ -11,7 +11,7 @@ Connect: ssh -i key  grader@18.197.54.179 -p 2200
 ## Hosted web application
 
 ```
-URL: _insert_here_
+URL: http://ec2-18-197-54-179.eu-central-1.compute.amazonaws.com/
 ```
 
 ## Software and configuration changes
