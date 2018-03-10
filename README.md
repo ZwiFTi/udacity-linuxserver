@@ -34,3 +34,7 @@ URL: http://ec2-18-197-54-179.eu-central-1.compute.amazonaws.com/
   c. Updated python files from sqlite to postgresql (user: andy, pw: grader123)
 14. Updated OAuth authorized JavaScript origins to make login work
 15. Restarted Apache
+
+## Third party resources
+
+[Digital Ocean - Flask Deployment](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
